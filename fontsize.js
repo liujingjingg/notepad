@@ -51,7 +51,7 @@ var $ziti=(function(){
                        +'</ul>'
                +'</div>'
            +'</div>'
-        //    <!-- 示例部分 -->
+        //    示例部分
            +'<div>'
                +'<fieldset class="shili" id="shili">'
                    +'<legend>示例</legend>AaBbZzYy'
