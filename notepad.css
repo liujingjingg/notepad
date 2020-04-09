@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    list-style: none;
+}
+.top{
+    width: 100%;
+    height: 25px;
+}
+.list{
+    padding-top: 5px;
+}
+.li1{
+    float: left;
+    padding-left: 20px;
+    position: relative;
+    list-style: none;
+}
+.li1 a{
+    font-size: 12px;
+}
+.text{
+    width: 98%;
+    padding-left: 1%;
+    padding-top: 30px;
+}
+.li1 ul{
+    font-size: 13px;
+    width: 170px;
+    height: '100%';
+    display: none;
+    background-color: rgb(233, 229, 229);
+    position: absolute;
+    left:20px;
+    top:20px;
+}
+.li1 ul li{
+    padding-top: 4px;
+    padding-left: 20px;
+}
+.li1 ul li:hover{
+    background-color: rgb(150, 151, 252);
+}
+.li1 a:hover{
+    background-color: rgb(157, 189, 236);
+}
+.li1:hover ul{
+    display: block;
+}
+.ziti{
+    width:100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position:fixed;
+    /* background-color: blueviolet; */
+    z-index: 10;
+}
+.box{
+    border: 1px solid #0f7fdb;
+    box-shadow: 10px 10px 10px #d6d6d6;
+    box-sizing: border-box;
+    cursor: default; 
+    /* //光标 */
+    height: 550px;
+    width:500px;
+    margin: 0 auto;
+    top:100px;
+    position: relative;
+    user-select: none;
+    /* 添加这个属性文字就不能选中了 */
+}
+.top{
+    width: '100%';
+    height: 20px;
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+.content{
+    width: '100%';
+    height: 500px;
+    background-color: rgb(240, 239, 241);
+    position: relative;
+}
+.con1{
+    position:absolute;
+    left:10px;
+    top: 20px;
+}
+.con2{
+    position:absolute;
+    left: 10px;
+    top:43px;
+    width: 166px;
+}
+.con3{
+    width: 172px;
+    height: 130px;
+    overflow: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 63px;
+    left: 10px;
+}
+.con3 ul li{
+    font-size: 14px;
+}
+.con4{
+    position:absolute;
+    left:200px;
+    top: 20px;
+}
+.con5{
+    position:absolute;
+    left: 200px;
+    top:43px;
+    width: 120px;
+}
+.con6{
+    width: 122px;
+    height: 130px;
+    overflow: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 63px;
+    left: 200px;
+}
+.con6 ul li{
+    font-size: 14px;
+}
+.con7{
+    position:absolute;
+    left:350px;
+    top: 20px;
+}
+.con8{
+    position:absolute;
+    left: 350px;
+    top:43px;
+    width: 100px;
+}
+.con9{
+    width: 105px;
+    height: 130px;
+    overflow: auto;
+    background-color: #fff;
+    position: absolute;
+    top: 63px;
+    left: 350px;
+}
+.con9 ul li{
+    font-size: 14px;
+}
+.shili{
+    position: absolute;
+    left: 10px;
+    top: 230px;
+    width: 130px;
+    height: 100px;
+    justify-content: center;
+    line-height: 30px;
+}
+.bottom{
+    position: absolute;
+    left: 10px;
+    top: 350px;
+}
+.btn1{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 450px;
+    left: 250px;
+}
+.btn2{
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    top: 450px;
+    left: 360px;
+}
+.yuyan{
+    position: absolute;
+    left: 10px;
+    top: 375px;
+}
+.remove{
+    padding-left: 420px;
+}
+.xuanzhong{
+    background-color: #0078d7;
+    color: #fff;
+}
+.italic{
+    font-style: italic;
+}
+.weight{
+    font-weight: bold;
+}
